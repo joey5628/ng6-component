@@ -1,10 +1,6 @@
-
-
-import Home from './home/home';
-import tag from '../common/tag';
+import tag from './tag/tag';
 
 let componentModule = angular.module('app.components', [
-	Home.name,
 	tag.name
 ]);
 
