@@ -1,2 +1,6 @@
-let commonModule = angular.module('app.common', [])
+import header from './header/header';
+
+let commonModule = angular.module('app.common', [
+	header.name
+]);
 export default commonModule;

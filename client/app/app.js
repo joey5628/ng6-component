@@ -7,7 +7,9 @@ import Components from './components/components';
 import Page from './page/page';
 import AppComponent from './app.component';
 import 'jquery';
+// import 'normalize.css';
 import 'bootstrap-webpack';
+import './app.less';
 
 /**
  * 数据服务层
